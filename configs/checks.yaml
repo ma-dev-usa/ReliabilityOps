@@ -1,0 +1,15 @@
+services:
+  - name: httpbin-status-check
+    url: "https://httpbin.org/status/500"
+    method: GET
+    expected_status: 200
+    timeout_ms: 1000
+    required_fields: []
+
+  - name: httpbin-json-check
+    url: "https://httpbin.org/json"
+    method: GET
+    expected_status: 200
+    timeout_ms: 1000
+    required_fields:
+      - slideshow

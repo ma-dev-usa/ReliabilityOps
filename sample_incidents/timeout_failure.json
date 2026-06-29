@@ -1,0 +1,8 @@
+{
+  "service": "inventory-api",
+  "endpoint": "/api/inventory",
+  "status_code": 504,
+  "latency_ms": 5200,
+  "success": false,
+  "response_excerpt": "gateway timeout from upstream service"
+}

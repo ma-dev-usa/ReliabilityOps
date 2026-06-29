@@ -1,0 +1,9 @@
+{
+  "service": "users-api",
+  "endpoint": "/api/users",
+  "status_code": 200,
+  "latency_ms": 340,
+  "success": false,
+  "response_excerpt": "response missing required field: email",
+  "missing_fields": ["email"]
+}

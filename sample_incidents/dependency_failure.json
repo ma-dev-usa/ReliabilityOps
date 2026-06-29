@@ -1,0 +1,8 @@
+{
+  "service": "payments-api",
+  "endpoint": "/api/payments",
+  "status_code": 503,
+  "latency_ms": 1400,
+  "success": false,
+  "response_excerpt": "upstream dependency unavailable: redis connection refused"
+}

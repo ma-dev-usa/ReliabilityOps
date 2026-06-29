@@ -1,0 +1,8 @@
+{
+  "service": "orders-api",
+  "endpoint": "/api/orders",
+  "status_code": 500,
+  "latency_ms": 1840,
+  "success": false,
+  "response_excerpt": "database connection refused"
+}
